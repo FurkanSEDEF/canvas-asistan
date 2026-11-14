@@ -1,0 +1,17 @@
+# Gizli / kişisel veriler: ASLA repoya girmemeli
+android_app/keystore/
+data/
+demo_data/
+*.sqlite3
+*.jks
+pass.txt
+
+# Derleme çıktıları
+build_tmp/
+android_app/build/
+dist/
+android_app/dist/
+__pycache__/
+*.pyc
+demo_out.txt
+demo_err.txt
