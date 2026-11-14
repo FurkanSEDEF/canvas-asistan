@@ -1,3 +1,19 @@
+# Canvas Asistanım
+
+Canvas'taki teslimlerini, duyuruları ve notları takip eden, yeni not / duyuru / yaklaşan teslim için telefona bildirim gönderen Android uygulaması. Bilgisayar gerekmez; arka planda telefonun kendisi kontrol eder.
+
+## Telefona kurulum (Android)
+1. Telefonundan şu linki aç ve indir: **[CanvasAsistanim.apk](https://github.com/FurkanSEDEF/canvas-asistan/raw/main/releases/CanvasAsistanim.apk)**
+2. Dosyaya dokun, "bilinmeyen kaynaklardan yükleme" iznini ver ve kur (Play Store'da değil, bu yüzden Play Protect uyarı gösterebilir).
+3. Uygulamayı aç, bildirim iznini ver.
+4. Canvas adresini ve token'ını **bir kez** gir (token: Canvas → Hesap → Ayarlar → Approved Integrations → + New Access Token). Token telefonda şifreli saklanır; uygulama yalnızca okur, hiçbir ödevi teslim etmez.
+
+Bildirimler ~15 dakikada bir kontrol edilir. Pil tasarrufu kısıtlarsa uygulamanın pil ayarını "kısıtlama yok" yap.
+
+Kaynak kod: `android_app/` (derleme: `android_app/build.ps1`). Aşağısı, bilgisayarda çalışan izleme servisi ve masaüstü uygulaması için geliştirici notlarıdır.
+
+---
+
 # Canvas Agent (sections 11–14)
 
 Pure Python 3.10+ standard library. Optional: `pip install pypdf` for PDF text.
